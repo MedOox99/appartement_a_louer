@@ -1,0 +1,215 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="33.png">
+    <title>House Rental</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1.5rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            padding: 1rem;
+            width: 40%;
+            height: 665px;
+            position: relative;
+        }
+
+        header img {
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-top: 25%;
+            width: 50%;
+        }
+
+        h1.h1,
+        h1.h2 {
+            color: #000000;
+            display: inline; /* أو استخدام inline-block إذا كنت ترغب في إضافة هوامش */
+            font-size: 3rem; /* حجم الخط الخاص بك */
+            font-weight: bold;
+            margin: 0; /* للتخلص من الهوامش الافتراضية للعناصر */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        h1.h2 {
+            color: #2798D0; /* لون الخط الثاني */
+            margin-left: 5px; /* تحديد المسافة بين العناصر */
+        }
+
+        .ling{
+            margin-top: 80px;
+            border: 2px solid white;
+            height: 600px;
+            border-radius: 50px;
+        }
+
+        .g {
+            display: flex;
+            height: 99.7vh;
+        }
+
+        main {
+            color: white;
+            padding: 2rem;
+            padding-top: 0px;
+            width: 45%;
+            position: absolute;
+            left: 47%;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .continue {
+            margin:0px;
+            align-items: center;
+            position: absolute;
+            top: 60vh;
+            width: 320px;
+            height: 100px;
+            border-radius: 6px;
+
+        }
+
+        .article{
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        button{
+            width: 200px;
+            padding: 10px;
+            color: white;
+            border-radius: 8px;
+            border: none;
+            background-color: rgb(1, 121, 242);
+            font-size: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .p1{
+            width: 360px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(16, 108, 184);
+            margin-bottom: 10px;
+        }
+
+        .p2[type="submit"] {
+            background-color: #2291E0;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 1rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            width: 200px;
+            height: 50px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+        }
+
+        .p2[type="submit"]:hover {
+            background-color:rgb(15, 17, 170);
+        }
+
+        .inputs{
+            width: 770px;
+            height: 500px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .images{
+            display: flex;
+            justify-content: center;
+        }
+
+        .img2{
+            width: 40px;
+            height: 40px;
+            border-radius: 6px;
+        }
+
+        .a1{
+            margin: 30;
+            width: 40px;
+            height: 40px;
+        }
+
+        .section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hh{
+            margin-bottom: 70px;
+            text-shadow: 2px 2px 6px rgb(28, 152, 235);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="g">
+    <header>
+        <img src="33.png" alt="Logo">
+        <h1 class="h1">HOUSE </h1><h1 class="h2">RENTAL</h1>
+    </header>
+    <div class="ling"></div>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="inputs">
+                <div class="div">
+                    <h2 class="hh">The Property Owner</h2>
+                    <form action="tr.php" method="post">
+                        <input class="p1" type="email" name="email" id="email" placeholder="Email Address"><br><br>
+                        <input class="p1" type="password" name="password" id="password" placeholder="password"><br><br>
+                        <input class="p2" type="submit" value="Connexion" name="Connexion">
+                    </form>   
+                </div>
+            </div>
+        </section>
+    <div class="continue">
+        <div class="article">
+            <p class="or">__________ Or Continue wuth __________</p>
+        </div>
+        <div class="images">
+            <a href="#" class="a1"><img src="f.png" alt="facebook" width="25px" height="25px" class="img2"></a>
+            <a href="#" class="a1"><img src="google.png" alt="google" class="img2" width="25px" height="25px"></a>
+        </div>
+    </div>
+</div>
+</main>
+</div>
+</body>
+</html>
